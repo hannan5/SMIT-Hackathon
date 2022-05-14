@@ -1,0 +1,81 @@
+.main-course-section h2{
+    text-align: center;
+}
+.main-course-section{
+    padding: 10px;
+    margin-top:'10px'
+}
+.product{
+    width: 250px !important;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 13px;
+    border: 1px solid #fff;
+    box-shadow: 1;
+    /* box-shadow: rgb(0 0 0 / 30%) 0px 5px 5px; */
+    background-color: #4F4F4F;
+    padding-top: 15px; 
+}
+.productimg{
+    height: 190px;
+    margin: 25px 10px;
+    margin-top: 10px;
+}
+.product img{
+    /* width: 14vmax; */
+    height: 100%;
+    width: 100%;
+}
+.product h4 , h5{
+    color: #fff;
+    padding: 0 10px;
+    font-size: 17px;
+    font-family: 'MADE TOMMY REGULAR';
+}
+.product h6{
+    color: #A0A0A0;
+    padding: 0 14px;
+    font-size: 17px;
+    font-family: 'MADE TOMMY REGULAR';
+}
+.product h3{
+    /* position: relative !important; */
+    text-align: right !important ;
+    color: #FFBB46 !important;
+    font-size: 19px !important;
+    font-family: 'MADE TOMMY BOLD' !important;
+    margin-right: 10px !important;
+    margin-top: 15px ;
+}
+.rate{
+    margin: 0.5vmax;
+    display: flex;
+}
+.rate span {
+    color: #000;
+    font-size: 15px;
+}
+.product p{
+    color: #000;
+    padding: 0 13px;
+}
+.all-courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.enroll-div{
+    text-align: center;
+}
+.enroll-div button{
+    width: 100px;
+    height: 35px;
+    background-color: #FFBB46;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
